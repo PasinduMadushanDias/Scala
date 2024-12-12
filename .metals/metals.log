@@ -122,3 +122,60 @@ INFO: Unsupported notification method: $/setTrace
 2024.12.12 17:07:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\Desktop\pasimadu\Scala\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
 2024.12.12 17:07:48 INFO  Scala CLI: Error: java.io.IOException: Cannot run program "C:\Program Files\Java\jdk-17\bin\java.exe" (in directory "C:\Users\User\Desktop\pasimadu\Scala"): CreateProcess error=2, The system cannot find the file specified
 2024.12.12 17:07:48 INFO  Scala CLI: For more details, please see 'C:\Users\User\Desktop\pasimadu\Scala\.scala-build\stacktraces\1734003468-6323551711684791983.log'
+2024.12.12 17:08:00 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_06\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:08:47 ERROR Timeout waiting for 'build/initialize' response
+2024.12.12 17:08:47 ERROR Error starting Scala CLI
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:753)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:626)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.12.12 17:08:47 WARN  no build tool detected in workspace 'C:\Users\User\Desktop\pasimadu\Scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.12.12 17:08:47 WARN  Build server is not auto-connectable.
+2024.12.12 17:08:47 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_06\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:08:47 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_06\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:08:48 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_05\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:08:48 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_01\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:09:39 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_01\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:10:22 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:10:22 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:10:23 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:10:23 WARN  Could not find semantic tokens for: file:///C:/Users/User/Desktop/pasimadu/Scala/Day_07/Q1.scala
+2024.12.12 17:10:29 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:10:29 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:10:29 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:10:29 WARN  Could not find semantic tokens for: file:///C:/Users/User/Desktop/pasimadu/Scala/Day_07/Q2.scala
+2024.12.12 17:10:41 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:10:41 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:10:41 WARN  Could not find semantic tokens for: file:///C:/Users/User/Desktop/pasimadu/Scala/Day_07/Q1.scala
+2024.12.12 17:10:42 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:10:42 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:10:42 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:10:43 WARN  no build target for: C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q1.scala
+2024.12.12 17:10:43 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:10:43 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:10:44 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:10:45 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:10:45 WARN  Could not find semantic tokens for: file:///C:/Users/User/Desktop/pasimadu/Scala/Day_07/Q2.scala
+2024.12.12 17:10:51 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:10:51 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:10:52 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:10:52 WARN  no build target for: C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q2.scala
+2024.12.12 17:10:52 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:10:52 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:10:59 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:10:59 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:10:59 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:10:59 WARN  Could not find semantic tokens for: file:///C:/Users/User/Desktop/pasimadu/Scala/Day_07/Q3.scala
+2024.12.12 17:11:09 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:11:09 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:11:09 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:11:10 WARN  no build target for: C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q3.scala
+2024.12.12 17:11:10 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:11:10 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q3.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.12 17:11:50 INFO  no build target found for C:\Users\User\Desktop\pasimadu\Scala\Day_07\Q3.scala. Using presentation compiler with project's scala-library version: 3.3.4
